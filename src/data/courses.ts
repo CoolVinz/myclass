@@ -1,0 +1,88 @@
+import { Course } from "@/types";
+
+export const courses: Course[] = [
+  {
+    id: "1",
+    title: "Introduction to Web Development",
+    description: "Learn the basics of HTML, CSS, and JavaScript to build your first websites.",
+    instructor: "John Doe",
+    duration: "8 weeks",
+    level: "Beginner",
+    thumbnail: "/placeholder-course-1.jpg",
+    tags: ["HTML", "CSS", "JavaScript", "Web Development"],
+    lessons: [
+      {
+        id: "1-1",
+        title: "HTML Fundamentals",
+        description: "Learn the basic structure and elements of HTML",
+        duration: "45 minutes",
+        content: "In this lesson, we'll cover the fundamental building blocks of HTML...",
+        order: 1,
+      },
+      {
+        id: "1-2",
+        title: "CSS Styling Basics",
+        description: "Introduction to styling with CSS",
+        duration: "60 minutes",
+        content: "CSS allows us to style our HTML elements...",
+        order: 2,
+      },
+      {
+        id: "1-3",
+        title: "JavaScript Basics",
+        description: "Your first steps into programming with JavaScript",
+        duration: "75 minutes",
+        content: "JavaScript is the programming language of the web...",
+        order: 3,
+      },
+    ],
+  },
+  {
+    id: "2",
+    title: "React Fundamentals",
+    description: "Master the popular React library for building user interfaces.",
+    instructor: "Jane Smith",
+    duration: "6 weeks",
+    level: "Intermediate",
+    thumbnail: "/placeholder-course-2.jpg",
+    tags: ["React", "JavaScript", "Frontend", "Components"],
+    lessons: [
+      {
+        id: "2-1",
+        title: "Components and JSX",
+        description: "Understanding React components and JSX syntax",
+        duration: "50 minutes",
+        content: "React components are the building blocks of React applications...",
+        order: 1,
+      },
+      {
+        id: "2-2",
+        title: "State and Props",
+        description: "Managing component state and passing data with props",
+        duration: "65 minutes",
+        content: "State and props are fundamental concepts in React...",
+        order: 2,
+      },
+    ],
+  },
+  {
+    id: "3",
+    title: "Advanced Node.js",
+    description: "Deep dive into server-side JavaScript with Node.js and Express.",
+    instructor: "Mike Johnson",
+    duration: "10 weeks",
+    level: "Advanced",
+    thumbnail: "/placeholder-course-3.jpg",
+    tags: ["Node.js", "Express", "Backend", "APIs"],
+    lessons: [
+      {
+        id: "3-1",
+        title: "Express.js Fundamentals",
+        description: "Building web servers with Express.js",
+        duration: "90 minutes",
+        content: "Express.js is a minimal and flexible Node.js web application framework...",
+        order: 1,
+      },
+    ],
+  },
+];

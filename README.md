@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MyClass - Online Learning Platform
 
-## Getting Started
+A modern, responsive web application for online learning built with Next.js, Tailwind CSS, and Shadcn UI. Students can browse courses, view detailed course information, and track their learning progress.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Modern UI/UX** - Clean, responsive design with Shadcn UI components
+- **Course Catalog** - Browse and search through available courses
+- **Course Details** - Detailed course pages with lesson breakdowns
+- **Filtering & Search** - Filter courses by level and search by keywords
+- **Responsive Design** - Works seamlessly on desktop, tablet, and mobile
+- **TypeScript** - Full type safety throughout the application
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 15](https://nextjs.org/) with App Router
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components**: [Shadcn UI](https://ui.shadcn.com/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Future**: Supabase integration planned for authentication and database
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/CoolVinz/myclass.git
+   cd myclass
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Visit [http://localhost:3000](http://localhost:3000) to see the application.
+
+## 📁 Project Structure
+
+```
+src/
+├── app/                 # Next.js App Router pages
+│   ├── courses/        # Course listing and individual course pages
+│   ├── layout.tsx      # Root layout with navigation
+│   └── page.tsx        # Homepage
+├── components/         # Reusable UI components
+│   ├── ui/            # Shadcn UI components
+│   ├── layout/        # Navigation and footer components
+│   └── course/        # Course-specific components
+├── data/              # Static course data
+├── types/             # TypeScript type definitions
+└── lib/               # Utility functions
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Current Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Homepage**: Hero section with featured courses and benefits
+- **Course Catalog**: Complete listing with search and filtering
+- **Course Details**: Individual course pages with lesson information
+- **Responsive Navigation**: Mobile-friendly navigation bar
+- **Static Content**: Sample courses with realistic data
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔮 Future Enhancements
 
-## Learn More
+- User authentication with Supabase
+- User progress tracking
+- Video lesson integration
+- Interactive quizzes and assignments
+- User dashboard
+- Course enrollment system
+- Payment integration
 
-To learn more about Next.js, take a look at the following resources:
+## 🤝 Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is open for contributions. Feel free to fork the repository and submit pull requests.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open source and available under the [MIT License](LICENSE).
