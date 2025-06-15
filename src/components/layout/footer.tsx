@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Footer() {
   return (
     <footer className="bg-gray-50 border-t">
@@ -16,19 +18,19 @@ export function Footer() {
             </h4>
             <ul className="space-y-2">
               <li>
-                <a href="/courses" className="text-gray-600 hover:text-gray-900 text-sm">
+                <Link href="/courses" className="text-gray-600 hover:text-gray-900 text-sm">
                   Web Development
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/courses" className="text-gray-600 hover:text-gray-900 text-sm">
+                <Link href="/courses" className="text-gray-600 hover:text-gray-900 text-sm">
                   Programming
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/courses" className="text-gray-600 hover:text-gray-900 text-sm">
+                <Link href="/courses" className="text-gray-600 hover:text-gray-900 text-sm">
                   Design
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -38,19 +40,19 @@ export function Footer() {
             </h4>
             <ul className="space-y-2">
               <li>
-                <a href="/help" className="text-gray-600 hover:text-gray-900 text-sm">
+                <Link href="/help" className="text-gray-600 hover:text-gray-900 text-sm">
                   Help Center
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="text-gray-600 hover:text-gray-900 text-sm">
+                <Link href="/contact" className="text-gray-600 hover:text-gray-900 text-sm">
                   Contact Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/privacy" className="text-gray-600 hover:text-gray-900 text-sm">
+                <Link href="/privacy" className="text-gray-600 hover:text-gray-900 text-sm">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
